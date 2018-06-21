@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.m2/settings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/lsmolab-core-autotest.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/main/java/com/peterservice/lsmolab/autotest/dao/DictionariesServices.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/main/java/com/peterservice/lsmolab/autotest/dao/TEST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/main/java/com/peterservice/lsmolab/configuration/EnvironmentConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/common/AbstractTestClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/ClientDictionaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/ClientDictionary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/CustomerDictionaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/GetClientDictionaryTCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/clientdictionaries/GetClientDictionaryTCase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/META-INF/aop.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/environment.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/logback-test.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/mappers/bis-clnt-dict-mapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/mybatis-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/suits/clnt-attributes-suite.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/testng-main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/components/clients/ClientDictionaryService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/components/clients/CustomerDictionaryService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/models/db/ClientDictionary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-tests.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/profiles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/MainCycle.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Units/BaseGroup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Units/BaseUnit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
