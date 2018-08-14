@@ -1,5 +1,7 @@
 package Units;
 
+import lombok.Data;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -7,6 +9,7 @@ import java.util.Random;
 /**
  * Created by Evgeniy.Nikolaev on 18.06.2018.
  */
+@Data
 public class BaseGroup {
 
 
@@ -26,7 +29,7 @@ public class BaseGroup {
                 BaseUnit target = targetGroup.getGroup().get(targetNum.nextInt(targetGroup.group.size()));
                 unit.Attack(target);
                 target.checkDying();
-                if (target.getAlive() == false) {
+                if (!target.isAlive()) {
                     targetGroup.group.remove(target);
                 }
             }else{
@@ -35,12 +38,5 @@ public class BaseGroup {
         }
     }
 
-    public List<BaseUnit> getGroup() {
-        return group;
-    }
-
-    public void setGroup(List<BaseUnit> group) {
-        this.group = group;
-    }
 
 }

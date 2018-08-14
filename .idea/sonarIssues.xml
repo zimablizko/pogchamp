@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/a.dummy">
           <value>
             <set />
@@ -63,6 +68,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/SubsDictionaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/SubscriberDictionaries.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/java/com/peterservice/lsmolab/domain/customattributes/clientdictionaries/GetClientDictionaryTCase.java">
           <value>
             <set />
@@ -98,6 +113,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/mappers/bis-subs-dict-mapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-autotest/src/test/resources/mybatis-config.xml">
           <value>
             <set />
@@ -113,6 +133,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/components/clients/ClientDictionaryService.java">
           <value>
             <set />
@@ -123,7 +148,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/components/clients/SubsDictionaryService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/components/clients/SubscriberDictionaryService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/components/subscribers/SubscriberDictionaryService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/models/db/ClientDictionary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/models/db/MBUSMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/models/db/SubsDictionary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/lsmolab-core-library/src/main/java/com/peterservice/lsmolab/models/db/SubscriberDictionary.java">
           <value>
             <set />
           </value>
@@ -139,6 +194,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../bis_core_api/tests/lsmolab-tests/profiles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../nklv_autotests/MavenTest/src/main/resources/config.properties">
           <value>
             <set />
           </value>
@@ -159,6 +219,51 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/Units/BaseUnit.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Utils/Checker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/Utils/Randomizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/assertions/CustomAssertions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/assertions/ReceiptRegistrationAssert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/components/dao/InvoiceServiceDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/components/dao/PaymentServiceDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/models/BalanceState.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/models/Invoice.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../togc/auto_tests/java/lsmolab-autotests/lsmolab-autotest-library/lsmolab-common/src/main/java/com/peterservice/lsmolab/commonlib/models/Payment.java">
           <value>
             <set />
           </value>

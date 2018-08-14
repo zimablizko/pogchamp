@@ -1,15 +1,23 @@
 package Units;
 
+import Utils.Randomizer;
+import lombok.Data;
+
 import java.util.Random;
 
 /**
  * Created by Evgeniy.Nikolaev on 18.06.2018.
  */
+
+@Data
 public class BaseUnit {
     private String name;
     private int hp;
+    private int accuracy;
     private int damage;
+    private int damageRange;
     private int critChance;
+    private int critModifier;
     private int blockChance;
     private boolean isAlive;
 
@@ -17,11 +25,13 @@ public class BaseUnit {
         Random random = new Random();
         this.name = name+" "+String.valueOf(random.nextInt(999));
         this.hp = 100;
+        this.accuracy = 95;
         this.damage = 5;
+        this.damageRange = 4;
         this.critChance = 10;
+        this.critModifier = 2;
         this.blockChance = 10;
         this.isAlive = true;
-
     }
 
     public BaseUnit(String name, int hp, int damage) {
@@ -29,23 +39,31 @@ public class BaseUnit {
         this.hp = hp;
         this.damage = damage;
         this.isAlive = true;
+
     }
 
     public void Attack(BaseUnit target){
-        Random random = new Random();
-        int dmg = this.getDamage() + random.nextInt(4);
-        Random critRandom = new Random();
-        if(critRandom.nextInt(100)<this.critChance){
-            System.out.println(this.getName()+" ON RAGE!");
-            dmg*=2;
+        if(Randomizer.CheckSuccess(getAccuracy())) {
+            int dmg = calculateDamage();
+            System.out.println(this.getName() + " hit " + target.getName() + " for " + String.valueOf(dmg));
+            target.takeDamage(dmg);
+        }else{
+            System.out.println(this.getName() + " missed.");
         }
-        System.out.println(this.getName()+" hit "+target.getName()+" for "+String.valueOf(dmg));
-        target.takeDamage(dmg);
+    }
+
+    public int calculateDamage(){
+        Random dmgRandom = new Random();
+        int dmg = getDamage() + dmgRandom.nextInt(getDamageRange());
+        if (Randomizer.CheckSuccess(getCritChance())) {
+            System.out.println(getName() + " ON RAGE!");
+            dmg *= this.critModifier;
+        }
+        return dmg;
     }
 
     public void takeDamage(int dmg){
-        Random blockRandom = new Random();
-        if(blockRandom.nextInt(100)<this.blockChance){
+        if(Randomizer.CheckSuccess(getBlockChance())){
             System.out.println(this.getName()+" blocked damage!");
         }else {
             this.setHp(this.getHp() - dmg);
@@ -57,60 +75,5 @@ public class BaseUnit {
             this.isAlive = false;
             System.out.println(this.getName()+" is dead.");
         }
-    }
-    public String getName() {
-        return name+"("+this.getHpString()+")";
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getHp() {
-        return hp;
-    }
-
-    public String getHpString() {
-        return String.valueOf(hp);
-    }
-
-    public void setHp(int hp) {
-        this.hp = hp;
-    }
-
-    public int getDamage() {
-        return damage;
-    }
-
-    public String getDamageString() {
-        return String.valueOf(damage);
-    }
-
-    public void setDamage(int damage) {
-        this.damage = damage;
-    }
-
-    public boolean getAlive() {
-        return isAlive;
-    }
-
-    public void setAlive(boolean alive) {
-        isAlive = alive;
-    }
-
-    public int getCritChance() {
-        return critChance;
-    }
-
-    public void setCritChance(int critChance) {
-        this.critChance = critChance;
-    }
-
-    public int getBlockChance() {
-        return blockChance;
-    }
-
-    public void setBlockChance(int blockChance) {
-        this.blockChance = blockChance;
     }
 }
