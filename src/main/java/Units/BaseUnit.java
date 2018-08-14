@@ -45,10 +45,10 @@ public class BaseUnit {
     public void Attack(BaseUnit target){
         if(Randomizer.CheckSuccess(getAccuracy())) {
             int dmg = calculateDamage();
-            System.out.println(this.getName() + " hit " + target.getName() + " for " + String.valueOf(dmg));
+            System.out.println(getName() + " hit " + target.getName() + " for " + String.valueOf(dmg));
             target.takeDamage(dmg);
         }else{
-            System.out.println(this.getName() + " missed.");
+            System.out.println(getName() + " missed.");
         }
     }
 
@@ -64,16 +64,16 @@ public class BaseUnit {
 
     public void takeDamage(int dmg){
         if(Randomizer.CheckSuccess(getBlockChance())){
-            System.out.println(this.getName()+" blocked damage!");
+            System.out.println(getName()+" blocked damage!");
         }else {
-            this.setHp(this.getHp() - dmg);
+            this.setHp(getHp() - dmg);
         }
     }
 
     public void checkDying(){
         if (this.getHp()<=0){
             this.isAlive = false;
-            System.out.println(this.getName()+" is dead.");
+            System.out.println(getName()+" is dead.");
         }
     }
 }
