@@ -13,4 +13,11 @@ public class Randomizer {
         else
             return false;
     }
+
+    public static int GetRandomInt (int fromInt, int toInt){
+        Random random = new Random();
+        return random.nextInt(toInt-fromInt)+fromInt;
+    }
+
+
 }
